@@ -1,6 +1,6 @@
-function markDone(todos) {
+function markAsDone(todos) {
   for (let 1 = 0; i < todos.length; i++) {
-    todods[i] = "done - " + todos [i];
+    todos[i] = "done - " + todos [i];
   }
   return todos;
 }

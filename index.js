@@ -1,5 +1,5 @@
 function markAsDone(todos) {
-  for (let 1 = 0; i < todos.length; i++) {
+  for (let i = 0; i < todos.length; i++) {
     todos[i] = "done - " + todos[i];
   }
   return todos;
